@@ -32,7 +32,7 @@
                     </li>
                     @else --}}
                         <li><a class="nav-link" href="{{ route('register') }}">Add User</a></li>
-                        <li><a class="nav-link" href="{{ route('login') }}">All users with roles</a></li>
+                        <li><a class="nav-link" href="{{ route('all.user') }}">All users with roles</a></li>
                     {{-- @endauth --}}
                  
                 </ul>
